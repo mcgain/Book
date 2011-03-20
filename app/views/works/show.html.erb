@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @work.title %>
+</p>
+
+<p>
+  <b>First date read:</b>
+  <%= @work.first_date_read %>
+</p>
+
+<p>
+  <b>Score:</b>
+  <%= @work.score %>
+</p>
+
+
+<%= link_to 'Edit', edit_work_path(@work) %> |
+<%= link_to 'Back', works_path %>
