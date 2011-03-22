@@ -1,20 +1,12 @@
 <h1>Listing works</h1>
 
 <table>
-  <tr>
-    <th>Title</th>
-    <th>First date read</th>
-    <th>Score</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
 <% @works.each do |work| %>
-  <tr>
-    <td><%= work.title %></td>
-    <td><%= work.first_date_read %></td>
-    <td><%= work.score %></td>
+  <tr class="work_header">
+    <td><%= work.title %>: <%=work.authors %> </td>
+  </tr>
+  <tr class ="work_body">
+    <td><%= work.score %> / 10</td>
     <td><%= link_to 'Show', work %></td>
     <td><%= link_to 'Edit', edit_work_path(work) %></td>
     <td><%= link_to 'Destroy', work, :confirm => 'Are you sure?', :method => :delete %></td>
