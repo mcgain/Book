@@ -24,8 +24,14 @@
     <%= f.text_field :score %>
   </div>
   <div class ="field">
-    <%=f.label :author %><br />
-    <%= f.collection_select(:id, Author.all, :id, :full_name, :prompt => true) %><br />
+    <!--  <%=f.label :authors %><br />
+    <%= f.collection_select(:id, Author.all, :id, :full_name, :prompt => true) %><br /> -->
+    <% for author in Author.find(:all) %>
+      <%= check_box_tag "work[author_ids][]", author.id, @work.authors.include?(author) %>
+      <%= author.full_name %>
+    <% end %>
+
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>

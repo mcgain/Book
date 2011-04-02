@@ -25,7 +25,7 @@ class WorksController < ApplicationController
   # GET /works/new.xml
   def new
     @work = Work.new
-
+    @authors = Author.find(:all)
     respond_to do |format|
       format.html # new.html.erb
       format.xml  { render :xml => @work }
@@ -41,7 +41,6 @@ class WorksController < ApplicationController
   # POST /works.xml
   def create
     @work = Work.new(params[:work])
-
     respond_to do |format|
       if @work.save
         format.html { redirect_to(@work, :notice => 'Work was successfully created.') }
@@ -57,7 +56,7 @@ class WorksController < ApplicationController
   # PUT /works/1.xml
   def update
     @work = Work.find(params[:id])
-
+    @work.authors = Author.find(params[:work][:author_ids])
     respond_to do |format|
       if @work.update_attributes(params[:work])
         format.html { redirect_to(@work, :notice => 'Work was successfully updated.') }
