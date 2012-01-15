@@ -1,0 +1,219 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mod",
+				"module"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"Hap",
+				"HappyMapper"
+			],
+			[
+				"H",
+				"HappyMapper"
+			],
+			[
+				"cla",
+				"cla: class .. end"
+			],
+			[
+				"Def",
+				"Defenses"
+			],
+			[
+				"c",
+				"cla: class .. < ParentClass .. initialize .. end"
+			],
+			[
+				"fi",
+				"find_all"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Sites/simpleBook/Gemfile",
+		"/C/Sites/simpleBook/Rakefile",
+		"/C/Sites/simpleBook/config/routes.rb",
+		"/C/Sites/simpleBook/app/models/book.rb",
+		"/C/Users/Richard/Downloads/Stronghold.3.Update.5.and.6.Fix-RELOADED/reloaded.nfo",
+		"/C/Sites/monster/lib/Goblin.xml",
+		"/C/Users/Richard/Documents/Rainmeter/Skins/Gnometer/Notes/Notes1.txt",
+		"/C/Users/Richard/AppData/Local/Temp/Temp1_Ultimate Camera Control 2.8.zip/UltCam 2.8 readme_EN.txt",
+		"/C/Users/Richard/Downloads/Stronghold.3.Update.1.and.2-RELOADED/reloaded.nfo",
+		"/C/Users/Richard/Downloads/Stronghold.3-SKIDROW/skidrow.nfo",
+		"/C/Sites/monster/lib/monster.rb",
+		"/C/Sites/monster/lib/monster.xml",
+		"/C/Users/Richard/AppData/Local/Temp/7zO1603.tmp/Read Me!.txt",
+		"/C/Users/Richard/Downloads/Deus.Ex Human.Revolution.Augmented.Edition-SiMON/Note.txt",
+		"/C/Sites/xmldiff/diffxml/INSTALL",
+		"/C/Sites/diffxml/INSTALL.txt",
+		"/C/Users/Richard/AppData/Roaming/Sublime Text 2/Packages/Default/Base File.sublime-settings",
+		"/C/Users/Richard/AppData/Roaming/Sublime Text 2/Packages/Default/Global.sublime-settings",
+		"/C/Sites/monster/lib/monster.monster",
+		"/C/Sites/Book/Gemfile",
+		"/C/Sites/Book/app/controllers/authors_controller.rb",
+		"/C/Sites/Book/app/views/works/_author.html.erb",
+		"/C/Sites/Book/app/models/author.rb",
+		"/C/Users/Richard/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Richard/AppData/Roaming/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/C/Sites/Book/app/views/works/index.html.erb",
+		"/C/Sites/Book/app/controllers/works_controller.rb",
+		"/C/Sites/Book/app/models/work.rb",
+		"/C/Sites/Book/app/views/works/_form.html.erb",
+		"/C/Sites/Book/app/views/works/new.html.erb",
+		"/C/Sites/Book/db/migrate/20110321183401_create_author_work_join_table.rb",
+		"/C/Sites/Book/db/migrate/20110321183401_create_author_work_link.rb",
+		"/C/Sites/Book/db/migrate/201103211834_create_author_work_link.rb",
+		"/C/Sites/Book/db/migrate/20110",
+		"/C/Sites/Book/db/schema.rb",
+		"/C/Users/Richard/AppData/Roaming/Sublime Text 2/Packages/User/Global.sublime-settings",
+		"/C/Sites/Book/app/views/layouts/application.html.erb",
+		"/C/Sites/Book/public/stylesheets/scaffold.css",
+		"/C/Sites/Book/config/application.rb",
+		"/C/RailsInstaller/Ruby1.8.7/setup_environment.bat"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"}",
+			"#",
+			"<",
+			"+<",
+			">-*",
+			"<",
+			">-*",
+			"+"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"}\" +",
+			"\"#",
+			"",
+			"\\n",
+			"",
+			"\\n",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 132.0,
+	"status_bar_visible": true
+}
