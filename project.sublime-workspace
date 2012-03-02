@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"image_",
+				"image_url"
+			],
+			[
+				"disp",
+				"display	display: inline"
+			],
+			[
+				"head",
+				"header	Tag"
+			],
+			[
 				"mod",
 				"module"
 			],
@@ -39,6 +51,57 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 495,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 1835,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 56399,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/books/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 620,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Richard/vimfiles/ruby/command-t/vim.rb",
+			"settings":
+			{
+				"buffer_size": 2130,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "",
+			"file": "public/stylesheets/books.css",
+			"file_size": 249,
+			"file_write_time": 129710834275295372,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -64,6 +127,15 @@
 	},
 	"file_history":
 	[
+		"/C/Sites/Book2/app/assets/stylesheets/books.css",
+		"/C/Sites/Book2/app/views/layouts/application.html.erb",
+		"/C/Sites/Book2/public/stylesheets/books.css",
+		"/C/Sites/Book2/app/assets/stylesheets/application.css",
+		"/C/Users/Richard/AppData/Roaming/Sublime Text 2/Packages/User/HTML (Rails).sublime-settings",
+		"/C/Users/Richard/AppData/Roaming/Sublime Text 2/Packages/Default/Base File.sublime-settings",
+		"/C/Users/Richard/AppData/Roaming/Sublime Text 2/Packages/Default/Global.sublime-settings",
+		"/C/Sites/Book2/public/index.html",
+		"/C/Sites/Book2/config/routes.rb",
 		"/C/Sites/simpleBook/Gemfile",
 		"/C/Sites/simpleBook/Rakefile",
 		"/C/Sites/simpleBook/config/routes.rb",
@@ -80,8 +152,6 @@
 		"/C/Users/Richard/Downloads/Deus.Ex Human.Revolution.Augmented.Edition-SiMON/Note.txt",
 		"/C/Sites/xmldiff/diffxml/INSTALL",
 		"/C/Sites/diffxml/INSTALL.txt",
-		"/C/Users/Richard/AppData/Roaming/Sublime Text 2/Packages/Default/Base File.sublime-settings",
-		"/C/Users/Richard/AppData/Roaming/Sublime Text 2/Packages/Default/Global.sublime-settings",
 		"/C/Sites/monster/lib/monster.monster",
 		"/C/Sites/Book/Gemfile",
 		"/C/Sites/Book/app/controllers/authors_controller.rb",
@@ -107,7 +177,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -121,6 +191,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"</td>",
+			"<td>",
 			"}",
 			"#",
 			"<",
@@ -136,6 +208,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
 			"}\" +",
 			"\"#",
 			"",
@@ -153,8 +226,173 @@
 	"groups":
 	[
 		{
+			"selected": 4,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 495,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 1835,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/assets/stylesheets/bootstrap.css",
+					"settings":
+					{
+						"buffer_size": 56399,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/books/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 620,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/Richard/vimfiles/ruby/command-t/vim.rb",
+					"settings":
+					{
+						"buffer_size": 2130,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "public/stylesheets/books.css",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -199,6 +437,26 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"appl",
+				"app/assets/stylesheets/application.css"
+			],
+			[
+				"appcss",
+				"app/assets/stylesheets/application.css"
+			],
+			[
+				"index",
+				"app/views/books/index.html.erb"
+			],
+			[
+				"boots",
+				"app/assets/stylesheets/bootstrap.css"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			]
 		],
 		"width": 0.0
 	},
@@ -214,6 +472,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 132.0,
+	"side_bar_width": 169.0,
 	"status_bar_visible": true
 }

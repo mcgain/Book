@@ -3,12 +3,19 @@
 <head>
   <title>Book2</title>
   <%= stylesheet_link_tag    "application" %>
+  <%= stylesheet_link_tag    "bootstrap" %>  
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+	<div class="container">
+		<header>
+			<h1>Book</h1>
+			<nav>
+				Placeholder for navigation
+			</nav>	
+		</header>
+		<%= yield %>
+	</div>
 </body>
 </html>

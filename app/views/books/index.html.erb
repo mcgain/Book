@@ -1,33 +1,29 @@
-<h1>Listing books</h1>
+<%= stylesheet_link_tag "books" %>  
 
-<table>
-  <tr>
-    <th>Title</th>
-    <th>Author</th>
-    <th>Description</th>
-    <th>Rating</th>
-    <th>Image url</th>
-    <th>Amazon url</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
+<%= link_to 'Add a book', new_book_path %>
 
+<ul class='unstyled'>
 <% @books.each do |book| %>
-  <tr>
-    <td><%= book.title %></td>
-    <td><%= book.author %></td>
-    <td><%= book.description %></td>
-    <td><%= book.rating %></td>
-    <td><%= book.image_url %></td>
-    <td><%= book.amazon_url %></td>
-    <td><%= link_to 'Show', book %></td>
-    <td><%= link_to 'Edit', edit_book_path(book) %></td>
-    <td><%= link_to 'Destroy', book, confirm: 'Are you sure?', method: :delete %></td>
-  </tr>
-<% end %>
-</table>
+    <li>      
+    <article>
+        <header>
+            <strong>
+                <%= book.author %>,
+            </strong>     
+            <%= book.title %>
+            
 
+        </header>
+        <div>
+            <%= book.description %>
+            <%= book.rating %>
+            <%= image_tag(book.image_url, :size => '20%') %>
+            <%= link_to(book.amazon_url, :text => 'Buy this book on Amazon.com') %>     
+        </div>
+    </article>
+    </li>
+<% end %>
+</ul>
 <br />
 
-<%= link_to 'New Book', new_book_path %>
+
