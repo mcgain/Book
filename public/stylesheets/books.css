@@ -1,0 +1,13 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+header {
+	font-size: 120%;
+	font-family: arial,sans-serif;
+	padding: 20px 20px 5px 0px;
+}
+
+.author {
+	font-style: bold;
+}
