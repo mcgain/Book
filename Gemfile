@@ -24,4 +24,11 @@ gem 'jquery-rails'
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
+  gem 'rspec'
 end
+
+group :development do 
+	gem 'rspec'
+end
+
+gem 'googlebooks'
